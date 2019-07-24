@@ -39,3 +39,6 @@ git checkout  -b test = git branch test , git checkout test
 git checkout master ,git merge test
 
 git branch -d test
+
+git push origin  :tt //删除远程分支-推送空分支
+git push origin --delete tt //删除远程分支-指定删除远程分支
